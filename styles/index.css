@@ -1,0 +1,197 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+@font-face {
+  font-family: 'PingFangSC-Regular';
+  src: local('PingFangSC-Regular'), url(./PingFangSC-Regular.woff2);
+}
+
+@font-face {
+  font-family: 'PingFangSC-Semibold';
+  src: local('PingFangSC-Semibold'), url(./PingFangSC-Semibold.woff2);
+}
+
+.markdown {
+    margin: 0 auto;
+    max-width: 670px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 24px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 24px 0 6px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+a {
+    color: #61BFC1;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #466B6C;
+}
+
+ul, ol {
+    padding: 0;
+    margin-bottom: 24px;
+    list-style: inside;
+}
+
+li {
+    line-height: 24px;
+}
+
+li ul, li ul {
+    margin-left: 24px;
+}
+
+p, ul, ol {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+pre {
+    padding: 0px 24px;
+    max-width: 800px;
+    white-space: pre-wrap;
+}
+
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+
+blockquote {
+    border-left:.5em solid #eee;
+    padding: 0 2em;
+    margin-left:0;
+    max-width: 476px;
+}
+
+blockquote  cite {
+    font-size:14px;
+    line-height:20px;
+    color:#bfbfbf;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote p {  
+    color: #666;
+    max-width: 460px;
+}
+
+hr {
+    width: 540px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
+
+tr {
+  border-top: 1px solid #c6cbd1;
+  background: #fff;
+}
+
+th,
+td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr:nth-child(2n) {
+  background: #f6f8fa;
+}
+
+/**/
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.wrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  object-position: center;
+}
+.source {
+  opacity: 0;
+  transition: opacity 1200ms;
+}
+.loaded {
+  opacity: 1;
+}
+
+/* For demo layout */
+figcaption {
+  margin-top: 0.3rem;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-height: calc(100vh - 100px);
+}
+
