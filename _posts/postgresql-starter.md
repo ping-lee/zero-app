@@ -1,13 +1,13 @@
 ---
 title: 'PostgreSQL-起步'
 excerpt: 'PostgreSQL指南'
-coverImage: '/assets/blog/preview/cover.jpg'
+coverImage: '/assets/blog/postgresql/cover.jpg'
 date: '2020-09-30T09:10:07.322Z'
 author:
   name: 木子李
   picture: '/assets/blog/authors/tristan.jpg'
 ogImage:
-  url: '/assets/blog/preview/cover.jpg'
+  url: '/assets/blog/postgresql/cover.jpg'
 ---
 
 PostgreSQL是一个基于Postgres4.2版本，由加利福尼亚大学伯克利计算机科学学院开发的对象-关系型数据管理系统。
