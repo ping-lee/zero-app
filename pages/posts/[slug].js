@@ -68,7 +68,7 @@ export async function getStaticProps({ params }) {
       post: {
         ...post,
         content,
-        lqip,
+        ...lqip,
       },
     },
   }
