@@ -1,6 +1,6 @@
 ---
 title: 'PostgreSQL-起步'
-excerpt: 'PostgreSQL指南'
+excerpt: '介绍、安装PostgreSQL。'
 coverImage: '/assets/blog/postgresql/cover.jpg'
 date: '2020-09-30T09:10:07.322Z'
 author:
